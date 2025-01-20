@@ -1,0 +1,19 @@
+h1 
+{
+    color: red;
+    background: black;
+}
+
+.h1-com-classe{
+
+    color: pink;
+    background: purple;
+
+}
+
+#h1-com-id {
+
+    color: green;
+    background: magenta;
+
+}
