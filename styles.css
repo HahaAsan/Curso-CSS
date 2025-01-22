@@ -25,6 +25,7 @@ h1
 
 .container{
 
+    margin: auto;
     font-family: "Pacifico", serif;
 
 }
@@ -38,11 +39,53 @@ h1
     
     margin: auto;
 
-    padding: 30px;
+    padding: 50px;
     padding-left: 0px;
 
     border: 3px dotted red;
     border-top: 5px solid blue;
 
+    box-sizing: border-box;
+
 } 
 
+.mainaside {
+
+    text-align: center;
+
+}
+
+
+.mainaside ul{
+
+    list-style: square;
+    
+    padding: 0;
+    
+}
+
+
+.mainaside ul a{
+
+    text-decoration: none;
+    color: #000;
+    
+}
+.mainaside ul a:visited{
+
+    color: rgb(2, 52, 2);
+
+}
+.mainaside ul a:hover{
+
+    color: red;
+
+}
+
+
+.mainaside h2:hover{
+
+    color: purple;
+    cursor: pointer;
+
+}
