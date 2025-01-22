@@ -2,6 +2,28 @@
     box-sizing: border-box;
 }
 
+/* pseudoclassesesese */
+
+.categorias ul{
+
+    list-style: none;
+
+}
+
+.categorias ul li:first-child {
+    color: #ff0000;
+}
+.categorias ul li:last-child {
+    color: blue;
+}
+.categorias ul li:nth-child(3) {
+    color: green;
+}
+
+.categorias ul li:nth-child(even) {
+    background-color: #bbb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 /* Position */
 
@@ -50,6 +72,10 @@
     border: 3px solid rgb(18, 219, 68);
     background: rgb(160, 221, 161);
     top: 0px;
+    right: 200px;
+    margin: 3px;
+    margin-right: 30%;
+    margin-left: 10%;
     
 
 }
