@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 
 /* cores */
 
@@ -87,5 +91,46 @@ h1
 
     color: purple;
     cursor: pointer;
+
+}
+
+/* Formularios */
+
+.formmain{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 11px;
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.formmain div{
+
+    padding-bottom: 10px;
+
+}
+
+.formmain div label{
+
+    display: block;
+    
+}
+.formmain div input {
+
+    padding: 10px;
+    width: 100%;
+
+}
+
+.butao {
+
+    color: white;
+    background-color: black;
+    border-color: green;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 10px;
 
 }
