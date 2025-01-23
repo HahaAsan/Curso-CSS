@@ -4,11 +4,18 @@
     
     flex-direction: row;
 
+    height: 500px;
+    background-color: #00000044;
+
     /* justify-content: center;
     justify-content: flex-end; */
     justify-content: space-evenly;
 
+    align-items: start;
 
+    flex-flow: wrap;
+
+    align-content: space-evenly;
 }
 
 .container div{
@@ -18,4 +25,35 @@
     /* margin-left: 10%;
     margin-right: 10%; */
 
+}
+
+.container .box-1 {
+    order: 1;
+    /* flex: 1; */
+    flex-basis: 30%;
+}
+.container .box-2 {
+    order: 2;
+    /* flex: 1; */
+    flex-basis: 30%;
+}
+.container .box-3 {
+    order: 3;
+    /* flex: 1; */
+    flex-basis: 30%;
+}
+.container .box-4 {
+    order: 4;
+    /* flex: 1; */
+    flex-basis: 30%;
+}
+.container .box-5 {
+    order: 5;
+    /* flex: 1; */
+    flex-basis: 30%;
+}
+.container .box-6 {
+    order: 6;
+    /* flex: 1; */
+    flex-basis: 30%;
 }
