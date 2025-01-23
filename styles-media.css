@@ -1,10 +1,35 @@
-h1{
+h2{
     color: pink;
+}
+
+.invisivo{
+    color: transparent;
 }
 
 @media (max-width: 450px){
 
-    h1{
+    .celula{
+        color: black;
+    }
+
+    h2{
         color: red;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+
+    .tablet{
+        color: black;
+    }
+
+}
+
+@media (orientation: landscape) {
+    h2{
+        color: brown;
+    }
+    .landescapes {
+        color: black;
     }
 }
